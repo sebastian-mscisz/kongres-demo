@@ -1,0 +1,59 @@
+.custom-bg-primary {
+  background-color: #1f148c;
+}
+
+.custom-bg-primary-transparent {
+  background-color: #0d007ee7;
+}
+
+.custom-bg-secondary {
+  background-color: #817abf;
+}
+
+.custom-bg-secondary-transparent {
+  background-color: rgba(60, 50, 148, 0.699)
+}
+
+.custom-header-background {
+  background: url(./images/header-background.png) no-repeat 15% / cover;
+}
+
+.custom-footer-background {
+  background: url(./images/footer_bg.png) center, #0d007ee7;
+}
+
+.custom-text-primary {
+  color: #1f148c;
+}
+
+.custom-text-secondary {
+  color: #817abf;
+}
+
+.custom-nav-item {
+  margin-bottom: 1px;
+}
+
+.custom-nav-item-icon {
+  width: 55px;
+}
+
+.custom-register-section {
+  height: 200px;
+  width: 350px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 30%);
+}
+
+.custom-price-register-buttom {
+  border: 1px solid #1f148c;
+  color: #1f148c;
+}
+
+.custom-price-register-buttom:hover {
+  background-color: #1f148c;
+  color: white;
+}
+
+.custom-footer-clipped-bg {
+  clip-path: polygon(0% -1%, 100% -1%, 65% 150%, 35% 150%);
+}
