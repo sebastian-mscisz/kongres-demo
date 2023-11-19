@@ -38,6 +38,10 @@
   width: 55px;
 }
 
+.custom-navbar-collapse {
+  transition: 0s;
+}
+
 .custom-register-section {
   height: 200px;
   width: 350px;
