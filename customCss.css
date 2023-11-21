@@ -91,6 +91,15 @@
   -o-animation: fadeInRight 1s;
 }
 
+.custom-card {
+  transition: all 0.2s linear;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
 @media (min-width: 768px) {
 
   .custom-heading-container {
