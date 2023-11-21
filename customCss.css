@@ -30,6 +30,11 @@
   color: #817abf;
 }
 
+.custom-heading-container {
+  width: 75%;
+}
+
+
 .custom-nav-item {
   margin-bottom: 1px;
 }
@@ -40,7 +45,12 @@
 }
 
 .custom-nav-item-icon {
-  width: 55px;
+  width: 4rem;
+}
+
+.custom-nav-toggle-button {
+  width: 4rem;
+  height: 4rem;
 }
 
 .custom-navbar-collapse {
@@ -48,8 +58,8 @@
 }
 
 .custom-register-section {
-  height: 200px;
-  width: 350px;
+  height: 150px;
+  width: 200px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 30%);
 }
 
@@ -79,6 +89,22 @@
   -moz-animation: fadeInRight 1s;
   -webkit-animation: fadeInRight 1s;
   -o-animation: fadeInRight 1s;
+}
+
+@media (min-width: 768px) {
+
+  .custom-heading-container {
+    width: 50%;
+  }
+
+  .custom-register-section {
+    height: 200px;
+    width: 350px;
+  }
+
+  .custom-register-section button {
+    font-size: 1.25rem;
+  }
 }
 
 @keyframes fadeInLeft {
